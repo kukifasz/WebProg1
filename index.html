@@ -36,20 +36,24 @@
             }
             nav a {
                 margin-right: 30px;
+                color: #f0f0f0;
+                text-decoration: none;
             }
-            
+            nav a:visited {
+                color: #f0f0f0;
+            }
         </style>
     </head>
     <body>
         <header>
             <nav>
-                <a>Óráim</a>
-                <a>Házi feladataim</a>
-                <a>Táblázat példa</a>
+                <a href="#oraim">Óráim</a>
+                <a href="#hazik">Házi feladataim</a>
+                <a href="#tablazat">Táblázat példa</a>
             </nav>
         </header>
         <main>
-            <div>
+            <div id="oraim">
                 <h1>Hétfői óráink</h1>
                 <ol>
                     <li>Magprog 1</li>
@@ -59,7 +63,7 @@
                     <li>Logikai alapok gy.</li>
                 </ol>
             </div>
-            <div>
+            <div id="hazik">
                 <h1>Házi feladatok</h1>
                 <ol>
                     <li>Magprog 1</li>
@@ -73,7 +77,7 @@
                     <li>Logikai alapok gy.</li>
                 </ol>
             </div>
-            <div>
+            <div id="tablazat">
                 <table>
                     <caption>Táblázat cím...</caption>
                     <thead>
@@ -101,6 +105,9 @@
                         </tr>
                     </tbody>
                 </table>
+            </div>
+            <div style="margin-top: 20px;">
+                <img src="https://i.redd.it/snoops-fought-in-ww2-v0-9h3nejo5hapb1.jpg?s=7d5d333b7c48a8335c6d7682e9c5dc1fca98a5e8" width="300"> 
             </div>
         </main>
         <footer>
