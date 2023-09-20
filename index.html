@@ -60,6 +60,17 @@
             nav a:visited {
                 color: #f0f0f0;
             }
+            @keyframes fos {
+                0% {
+                    transform: rotateY(0deg);
+                }
+                50% {
+                    transform: rotateY(360deg);
+                }
+                100% {
+                    transform: rotateY(0deg);
+                }
+            }
         </style>
     </head>
     <body>
@@ -125,7 +136,7 @@
                 </table>
             </div>
             <div style="margin-top: 20px;">
-                <img src="https://i.redd.it/snoops-fought-in-ww2-v0-9h3nejo5hapb1.jpg?s=7d5d333b7c48a8335c6d7682e9c5dc1fca98a5e8" width="300"> 
+                <img style="animation: 5s fos infinite;" src="https://i.redd.it/snoops-fought-in-ww2-v0-9h3nejo5hapb1.jpg?s=7d5d333b7c48a8335c6d7682e9c5dc1fca98a5e8" width="300"> 
             </div>
         </main>
         <footer>
