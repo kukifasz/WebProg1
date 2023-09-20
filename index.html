@@ -5,6 +5,14 @@
         <meta name="viewport" content="initial-scale=1" />
         <title>Listák gyakorlása</title>
         <style>
+            html, body {
+                padding: 0;
+                margin: 0;
+            }
+            main {
+                margin: 10px;
+                margin-left: 20px;
+            }
             body {
                 background-color: #202020;
                 font-family: monospace;
@@ -15,11 +23,30 @@
                 border: 1px solid #f0f0f0;
                 border-collapse: collapse;
             }
+            nav {
+                padding: 0;
+                background-color: #181818;
+                width: 100%;
+                box-sizing: border-box;
+                height: 40px;
+                display: flex;
+                justify-content: left;
+                padding-left: 20px;
+                align-items: center;
+            }
+            nav a {
+                margin-right: 30px;
+            }
+            
         </style>
     </head>
     <body>
         <header>
-
+            <nav>
+                <a>Óráim</a>
+                <a>Házi feladataim</a>
+                <a>Táblázat példa</a>
+            </nav>
         </header>
         <main>
             <div>
